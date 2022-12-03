@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Triangles</string>
+    <string name="instruction">Input three sides of a triangle and determine its type. (Obtuse, Right, Acute)</string>
+    <string name="acuteIns">Acute Triangle: a^2 + b^2 > c^2</string>
+    <string name="rightIns">Right Triangle: a^2 + b^2 = c^2</string>
+    <string name="obtuseIns">Obtuse Triangle: a^2 + b^2 &lt; c^2</string>
+    <string name="sideA">side a (in meters)</string>
+    <string name="sideB">side b (in meters)</string>
+    <string name="sideC">side c (in meters)</string>
+    <string name="txt_side_A">a^2</string>
+    <string name="txt_side_B">b^2</string>
+    <string name="txt_side_C">c^2</string>
+    <string name="compute">COMPUTE</string>
+    <string name="compute_result">Showing Result(s)</string>
+    <string name="close">Close</string>
+
+    <string name="title_act_acute">Acute Triangle</string>
+    <string name="AcuteHeader">Acute Triangle</string>
+    <string name="AcuteDef"></string>
+    <string name="acuteDesc">a^2 + b^2 > c^2</string>
+
+    <string name="title_act_right">Right Triangle</string>
+    <string name="RightHeader">Right Triangle</string>
+    <string name="rightDesc">a^2 + b^2 = c^2</string>
+
+    <string name="title_act_obtuse">Obtuse Triangle</string>
+    <string name="ObtuseHeader">Obtuse Triangle</string>
+    <string name="obtuseDesc">a^2 + b^2 &lt; c^2</string>
+
+    <string name="title_main_act">Types of Triangles</string>
+    <string name="txt_result">Result</string>
+    <string name="btn_return">Compute Again</string>
+</resources>

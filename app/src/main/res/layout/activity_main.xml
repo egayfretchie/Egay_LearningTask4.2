@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pharlap"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/mortar"
+        android:backgroundTint="@color/mortar"
+        android:padding="10sp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/linen"
+        android:textColorHighlight="#48404D"
+        android:textColorHint="@color/mortar"
+        android:textColorLink="@color/mortar"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="@string/instruction"
+        android:textAlignment="viewStart"
+        android:textColor="@color/azalea"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvInstruction2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="@string/acuteIns"
+        android:textAlignment="center"
+        android:textColor="@color/mortar"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvInstruction3"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="@string/rightIns"
+        android:textAlignment="center"
+        android:textColor="@color/mortar"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvInstruction4"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="@string/obtuseIns"
+        android:textAlignment="center"
+        android:textColor="@color/mortar"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etSideA"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="108dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/sideA"
+        android:inputType="number"
+        android:padding="20sp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction" />
+
+    <EditText
+        android:id="@+id/etSideB"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="196dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/sideB"
+        android:inputType="number"
+        android:padding="20sp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction" />
+
+    <EditText
+        android:id="@+id/etSideC"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="288dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/sideC"
+        android:inputType="number"
+        android:padding="20sp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction" />
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/txt_side_A"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/etSideA"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction" />
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/txt_side_B"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/etSideB"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction" />
+
+    <TextView
+        android:id="@+id/tvC"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/txt_side_C"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/etSideC"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction" />
+
+    <Button
+        android:id="@+id/btnCompute"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/mortar"
+        android:text="@string/compute"
+        android:textSize="24sp"
+        android:textColor="@color/linen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstruction"
+        app:layout_constraintVertical_bias="0.675" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
